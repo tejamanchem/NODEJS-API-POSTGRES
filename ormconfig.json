@@ -1,0 +1,19 @@
+{ "type": "postgres", 
+"host": "localhost", 
+"port": 5432, 
+"username": "postgres", 
+"password": "Dhan1234!", 
+"database": "TejaDb", 
+"synchronize": true, 
+"logging": false, 
+"stream": false,
+"options":{
+
+  "cancelTimeout":15000,
+  "encrypt":false
+
+},"extra": {
+
+    "trustServerCertificate": true
+
+  }}

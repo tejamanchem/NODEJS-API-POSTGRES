@@ -1,0 +1,9 @@
+{
+    "dev": {
+      "driver": "pg",
+      "user": "postgres",
+      "password": "Dhan1234!",
+      "host": "localhost",
+      "database": "TejaDb"
+    }
+  }

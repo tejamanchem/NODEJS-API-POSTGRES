@@ -1,0 +1,35 @@
+{
+  "name": "nodejs-api-postgres",
+  "version": "1.0.0",
+  "description": "A Nodejs Server with Postgres database",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "db": "ts-node ./database/dbConnection.ts",
+    "start": "ts-node ./src/Server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tejamanchem/NODEJS-API-POSTGRES.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tejamanchem/NODEJS-API-POSTGRES/issues"
+  },
+  "homepage": "https://github.com/tejamanchem/NODEJS-API-POSTGRES#readme",
+  "dependencies": {
+    "@types/typescript": "^2.0.0",
+    "express": "^4.18.1",
+    "morgan": "^1.10.0",
+    "pg": "^8.8.0",
+    "typeorm": "^0.2.38",
+    "typescript": "^4.8.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.14",
+    "@types/morgan": "^1.9.3",
+    "@types/node": "^18.7.18",
+    "ts-node": "^10.9.1"
+  }
+}
