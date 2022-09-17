@@ -1,0 +1,7 @@
+{
+    "db": {
+        "url": "postgres://postgres:postgres@localhost:5432/postgres",
+        "tsconfig": "./tsconfig.json",
+        "migration-filename-format": "utc"
+    }
+}
